@@ -3,5 +3,5 @@ uvicorn
 gunicorn
 pydantic
 sqlmodel
-psycopg
-python-dotenv
+psycopg[binary]
+python-decouple
